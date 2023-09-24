@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('https://i.pinimg.com/564x/d5/76/99/d5769943452830e593d06aca81c65b81.jpg');
+    background-size: cover;
+    
+}
+.navbar{
+    display: flex;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.07);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Caprasimo', cursive;
+    padding: 15px 0 0 0;
+    box-shadow: 5px 10px 50px rgb(0, 0, 0);
+}
+.name{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.list a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.list{
+    position: relative;
+    left: 20%;
+}
+button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 5px 25px;
+    border-radius: 20px;
+    border-color: white;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: 5px 10px 50px white ;
+}
+.container{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 10px 50px white;
+    border-radius: 20px;
+    height: 60%;
+    margin: 75px 183px;
+    width: 55%;
+}
+
+.txt{
+    padding: 37px 173px;
+    font-size: 20px;
+    font-weight: bold;
+}
+input{
+    margin: 20px 100px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 50px black;
+}
+label{
+    margin: 0px 100px;
+    font-weight: bold;
+}
+.btn{
+    margin: 0 150px;
+}
+.active{
+    display: block;
+}
+.passive{
+    display: none;
+}
